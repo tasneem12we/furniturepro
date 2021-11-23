@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="basics.css" rel="stylesheet" type="text/css">
+    <style>
+        * {
+            margin-top: 70px;
+            margin-left: 50px;
+            margin-bottom: 70px;
+            margin-right: 50px;
+            margin: 10px;
+        }
+
+
+        p {
+            margin-bottom: 50px;
+        }
+
+        #items {
+
+            display: flex;
+            list-style-type: none;
+            background-color: skyblue;
+            justify-content: space-around;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        /*group of elements*/
+        a,
+        p {
+            font-size: 20px;
+        }
+
+        .listItem {
+            margin: 20px;
+            background-color: pink;
+            padding: 20px;
+        }
+
+        li:nth-child(2) {
+            background-color: rgb(241, 62, 62);
+        }
+
+        li:nth-child(even) {
+            background-color: yellow;
+
+        }
+
+        li:nth-child(odd) {
+            background-color: orange;
+        }
+
+        li:first-child {
+            background-color: purple;
+        }
+
+        li:last-child {
+            background-color: sandybrown;
+        }
+
+
+        body {
+            background-image: url("C:\Users\tasnshai\Desktop\fl.jpg");
+        }
+
+        div>p {
+            font-family: cursive;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul id="items">
+
+        <li class="listItem"><a href="page1.html" target="_blank">item 1</a></li>
+        <li class="listItem"><a href="page2.html" target="_blank">item 2</a></li>
+        <li class="listItem"><a href="#">item 3</a></li>
+        <li class="listItem"><a href="#">item 4</a></li>
+    </ul>
+    <p><span
+            style="display:inline; width:100px;height:100px;background-color: pink; color:brown; font-weight: bold; font-style:Lucida Sans">
+            CSS is the language </span>for describing the presentation of Web pages, including colors, layout, and
+        fonts. It allows
+        one to adapt the presentation to different types of devices, such as large screens, small screens, or printers.
+        CSS is independent of HTML and can be used with any XML-based markup language.
+    </p>
+    <div>
+        <p style="display: flex;">
+            CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It
+            allows
+            one to adapt the presentation to different types of devices, such as large screens, small screens, or
+            printers.
+            CSS is independent of HTML and can be used with any XML-based markup language.
+        </p>
+        <img src="C:\Users\tasnshai\Downloads\fl.jpg" />
+    </div>
+
+</body>
+
+</html>
